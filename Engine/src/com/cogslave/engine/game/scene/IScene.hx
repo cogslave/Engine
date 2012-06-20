@@ -5,6 +5,6 @@ interface IScene
 	function update():Void;
 	function draw():Void;
 	
-	var isActive(getIsActive, never):Bool;
-	var isVisible(getIsVisible, never):Bool;
+	var isActive(getIsActive, setIsActive):Bool;
+	var isVisible(getIsVisible, setIsVisible):Bool;
 }

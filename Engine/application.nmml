@@ -6,7 +6,7 @@
 	<meta title="Engine" package="com.cogslave.engine.Engine" version="1.0.0" company="CogSlave" />
 	
 	<!-- output -->
-	<app main="com.cogslave.engine.Bootstrapper" file="Engine" path="bin" />
+	<app main="com.cogslave.test.Main" file="Engine" path="bin" />
 	
 	<window background="#000000" fps="60" />
 	<window width="640" height="480" unless="mobile" />
