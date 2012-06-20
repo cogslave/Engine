@@ -1,4 +1,4 @@
-package com.cogslave.engine.gameloop;
+package com.cogslave.engine.game.gameloop;
 
 class FixedTimeStep implements IGameLoop
 {
